@@ -6,32 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@nomicfoundation/hardhat-chai-matchers": "^2.0.2",
-    "@nomicfoundation/hardhat-ethers": "^3.0.4",
-    "@nomicfoundation/hardhat-network-helpers": "^1.0.8",
-    "@nomicfoundation/hardhat-verify": "^1.1.1",
-    "@openzeppelin/contracts": "4.9.2",
-    "@typechain/ethers-v6": "^0.4.3",
-    "@typechain/hardhat": "^8.0.3",
-    "@types/chai": "^4.3.5",
-    "@types/mocha": "^10.0.1",
-    "@zondax/filecoin-solidity": "github:filecoin-project/filecoin-solidity",
-    "chai": "^4.3.7",
-    "ethers": "^6.7.1",
-    "hardhat-deploy": "^0.11.36",
-    "hardhat-deploy-ethers": "^0.4.1",
-    "hardhat-gas-reporter": "^1.0.9",
-    "solidity-coverage": "^0.8.4",
-    "ts-node": "^10.9.1",
-    "typechain": "^8.3.1",
-    "typescript": "^5.1.6"
-  },
-  "dependencies": {
-    "@glif/filecoin-address": "^2.0.43",
     "@nomicfoundation/hardhat-toolbox": "^3.0.0",
-    "hardhat": "^2.17.1"
+    "@openzeppelin/contracts": "^4.9.3",
+    "@zondax/filecoin-solidity": "github:filecoin-project/filecoin-solidity",
+    "base64-sol": "^1.1.0",
+    "hardhat": "^2.17.2"
   }
 }

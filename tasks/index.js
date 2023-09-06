@@ -1,2 +1,2 @@
-exports.getAddress = require("./get-address")
-exports.cidToBytes = require("./cid-to-bytes")
+exports.mintCertificate = require("./mint-certificate")
+exports.addDeal = require("./add-deal")

@@ -1,18 +1,14 @@
 {
-  "name": "FEVM-Hardhat-Kit",
+  "name": "fevm-replication-certificate",
   "version": "1.0.0",
-  "description": "",
+  "description": "An example NFT that checks the replication status of a CID on Filecoin",
+  "main": "index.js",
   "scripts": {
-    "compile": "hardhat compile",
-    "test": "hardhat test test/unit/*_test.js --network hardhat",
-    "test-staging": "hardhat test test/staging/*_test.js --network goerli",
-    "lint": "solhint 'contracts/*.sol'",
-    "lint:fix": "solhint 'contracts/**/*.sol' --fix",
-    "format": "prettier --write .",
-    "coverage": "hardhat coverage --solcoverjs ./.solcover.js",
-    "fuzzing": "docker run -it --rm -v $PWD:/src trailofbits/eth-security-toolbox"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "MIT",
+  "keywords": [],
+  "author": "Matt Hamilton <matt.hamilton@protocol.ai>",
+  "license": "ISC",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
     "@nomiclabs/hardhat-etherscan": "^3.0.0",
